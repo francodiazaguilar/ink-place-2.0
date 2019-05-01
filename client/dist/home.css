@@ -1,5 +1,6 @@
 body{
-  background-color: black
+  background-image: url(http://www.4usky.com/data/out/75/164675178-rasta-wallpapers.jpg);
+  background-size: 400px;
 }
 
 .slideshow{
@@ -9,7 +10,9 @@ body{
 }
 
 .header{
-  color: blueviolet;
+  color: rgb(255, 0, 0);
+  border: 5px;
+  border-color: rgb(51, 236, 51);
   margin-top: 2rem;
   font-size: 80px;
   font-family: 'Pacifico', cursive;
@@ -23,7 +26,8 @@ body{
   justify-content: center;
   width: 70%;
   height: 100%;
-  background-color: white;
+  color: rgb(66, 65, 63);
+  opacity: 0.75;
 }
 
 .p-tag {
