@@ -1,7 +1,13 @@
 body{
-  background-image: url(http://www.4usky.com/data/out/75/164675178-rasta-wallpapers.jpg);
+  background-image: url(./images/rasta-background.jpg) ;
   background-size: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
+
+p{
+  font-family: 'Merienda', cursive;
+} 
 
 .slideshow{
   overflow: hidden;
@@ -11,8 +17,6 @@ body{
 
 .header{
   color: rgb(255, 0, 0);
-  border: 5px;
-  border-color: rgb(51, 236, 51);
   margin-top: 2rem;
   font-size: 80px;
   font-family: 'Pacifico', cursive;
@@ -24,13 +28,15 @@ body{
 
 .container {
   justify-content: center;
-  width: 70%;
-  height: 100%;
-  color: rgb(66, 65, 63);
-  opacity: 0.75;
 }
 
 .p-tag {
- font-family: 'Pacifico', cursive;
- color: white;
+  position: relative;
+  left: 25%;
+	justify-content: center;
+  width: 50%;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  background-color: rgb(54, 54, 54);
+  opacity: 0.7;
 }

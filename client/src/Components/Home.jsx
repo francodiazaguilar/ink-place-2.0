@@ -1,11 +1,11 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import DemoCarousel from './DemoCarousel.jsx';
 
 const Home = (props) => (
-  <div className = "body">
+  <div>
     <div className = "container">
-      <div>
+      <div className = 'body'>
         <h1 align="center" className="header">InkPlace</h1>
       </div>
       
@@ -17,12 +17,14 @@ const Home = (props) => (
           )}
         </select>
       </div>
-      <div className = "p-tag">
-        <p>{props.style.info}</p>
+      <div className = "p-tag" >
+       <p>{props.style.info}</p>
       </div>
-      <center><div className='slideshow'>
-        <DemoCarousel />
-      </div></center>
+      <center>
+        <div className='slideshow'>
+          <DemoCarousel />
+        </div>
+      </center>
     </div>
   </div>
 
