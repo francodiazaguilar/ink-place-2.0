@@ -34,7 +34,7 @@ class Book extends Component{
 }
   render(){
     return(
-      <Form onSubmit={this.handleSubmit} style={{ width: '600px'}}>
+      <Form className = "p-tag"onSubmit={this.handleSubmit} style={{ width: '600px'}}>
         <FormGroup>
           <Label for='name'>Name:</Label>
           <input
